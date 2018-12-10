@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C77198621210A220019307B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C77198521210A220019307B /* UIKit.framework */; };
+		4C77198821210A220019307B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C77198721210A220019307B /* Foundation.framework */; };
+		4C77198A21210A220019307B /* CydiaSubstrate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C77198921210A220019307B /* CydiaSubstrate.framework */; };
+		4C77199321210A220019307B /* Nophami.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4C77199221210A220019307B /* Nophami.mm */; };
+		4C77199F2122A6F00019307B /* HiddenChats.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C77199D2122A6F00019307B /* HiddenChats.h */; };
+		4C7719A02122A6F00019307B /* HiddenChats.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C77199E2122A6F00019307B /* HiddenChats.m */; };
+		4CD1E17B212396BC00AECB01 /* MiAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CD1E179212396BC00AECB01 /* MiAlert.h */; };
+		4CD1E17C212396BC00AECB01 /* MiAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1E17A212396BC00AECB01 /* MiAlert.m */; };
+		4CD1E1822123F28300AECB01 /* WAChatListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CD1E1812123F28300AECB01 /* WAChatListViewController.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C0D57FA212373CE00CA2699 /* UIAlertController+MZStyle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+MZStyle.m"; sourceTree = "<group>"; };
+		4C0D57FB212373CE00CA2699 /* MZAlertControllerStyle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZAlertControllerStyle.m; sourceTree = "<group>"; };
+		4C0D57FC212373CE00CA2699 /* HiddenChats.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HiddenChats.m; sourceTree = "<group>"; };
+		4C0D57FD212373CE00CA2699 /* UIView+INSRecursiveSubviews.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+INSRecursiveSubviews.m"; sourceTree = "<group>"; };
+		4C0D57FE212373CE00CA2699 /* Nophami-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nophami-Prefix.pch"; sourceTree = "<group>"; };
+		4C0D57FF212373CE00CA2699 /* UIAlertController+MZStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+MZStyle.h"; sourceTree = "<group>"; };
+		4C0D5800212373CE00CA2699 /* Nophami.xm */ = {isa = PBXFileReference; lastKnownFileType = text; path = Nophami.xm; sourceTree = "<group>"; };
+		4C0D5801212373CE00CA2699 /* HiddenChats.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HiddenChats.h; sourceTree = "<group>"; };
+		4C0D5802212373CE00CA2699 /* Nophami.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Nophami.mm; sourceTree = "<group>"; };
+		4C0D5803212373CE00CA2699 /* AJAlertControllerc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AJAlertControllerc.swift; sourceTree = "<group>"; };
+		4C0D5804212373CE00CA2699 /* MZAlertControllerStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZAlertControllerStyle.h; sourceTree = "<group>"; };
+		4C0D5805212373CE00CA2699 /* Nophami-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nophami-Bridging-Header.h"; sourceTree = "<group>"; };
+		4C0D5806212373CE00CA2699 /* AJAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AJAlertController.swift; sourceTree = "<group>"; };
+		4C0D5807212373CE00CA2699 /* UIView+INSRecursiveSubviews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+INSRecursiveSubviews.h"; sourceTree = "<group>"; };
+		4C0D580A212373CE00CA2699 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
+		4C0D580E212373CE00CA2699 /* Nophami.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = Nophami.dylib; sourceTree = "<group>"; };
+		4C0D580F212373CE00CA2699 /* Nophami.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Nophami.plist; sourceTree = "<group>"; };
+		4C0D5810212373CE00CA2699 /* HDAlertView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HDAlertView.framework; sourceTree = "<group>"; };
+		4C0D5812212373CE00CA2699 /* Nophami.dylib.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Nophami.dylib.dSYM; sourceTree = "<group>"; };
+		4C0D5814212373CE00CA2699 /* Nophami.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = Nophami.dylib; sourceTree = "<group>"; };
+		4C0D5816212373CE00CA2699 /* HDAlertView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HDAlertView.framework; sourceTree = "<group>"; };
+		4C0D5818212373CE00CA2699 /* com.iTheGentle.Nophami_0.1-1_iphoneos-arm.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "com.iTheGentle.Nophami_0.1-1_iphoneos-arm.zip"; sourceTree = "<group>"; };
+		4C0D5819212373CE00CA2699 /* com.iTheGentle.Nophami_0.1-1_iphoneos-arm.deb */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "com.iTheGentle.Nophami_0.1-1_iphoneos-arm.deb"; sourceTree = "<group>"; };
+		4C0D581A212373CE00CA2699 /* PodFile */ = {isa = PBXFileReference; lastKnownFileType = text; path = PodFile; sourceTree = "<group>"; };
+		4C0D581B212373CE00CA2699 /* Nophami.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Nophami.xcodeproj; sourceTree = "<group>"; };
+		4C0D581E212373CE00CA2699 /* Podfile.lock */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
+		4C77198221210A220019307B /* Nophami.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = Nophami.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C77198521210A220019307B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4C77198721210A220019307B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C77198921210A220019307B /* CydiaSubstrate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CydiaSubstrate.framework; path = Library/Frameworks/CydiaSubstrate.framework; sourceTree = DEVELOPER_DIR; };
+		4C77198E21210A220019307B /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		4C77199021210A220019307B /* Nophami-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nophami-Prefix.pch"; sourceTree = "<group>"; };
+		4C77199121210A220019307B /* Nophami.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = Nophami.xm; sourceTree = "<group>"; };
+		4C77199221210A220019307B /* Nophami.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Nophami.mm; sourceTree = "<group>"; };
+		4C77199721210A220019307B /* Nophami.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Nophami.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/Nophami.plist; sourceTree = "<group>"; };
+		4C77199D2122A6F00019307B /* HiddenChats.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HiddenChats.h; sourceTree = "<group>"; };
+		4C77199E2122A6F00019307B /* HiddenChats.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HiddenChats.m; sourceTree = "<group>"; };
+		4CD1E179212396BC00AECB01 /* MiAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiAlert.h; sourceTree = "<group>"; };
+		4CD1E17A212396BC00AECB01 /* MiAlert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiAlert.m; sourceTree = "<group>"; };
+		4CD1E1812123F28300AECB01 /* WAChatListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAChatListViewController.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C77197E21210A220019307B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C77198621210A220019307B /* UIKit.framework in Frameworks */,
+				4C77198821210A220019307B /* Foundation.framework in Frameworks */,
+				4C77198A21210A220019307B /* CydiaSubstrate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C0D57F8212373CE00CA2699 /* Nophami */ = {
+			isa = PBXGroup;
+			children = (
+				4C0D57F9212373CE00CA2699 /* Nophami */,
+				4C0D5810212373CE00CA2699 /* HDAlertView.framework */,
+				4C0D5811212373CE00CA2699 /* LatestBuild */,
+				4C0D5817212373CE00CA2699 /* Packages */,
+				4C0D581A212373CE00CA2699 /* PodFile */,
+				4C0D581B212373CE00CA2699 /* Nophami.xcodeproj */,
+				4C0D581E212373CE00CA2699 /* Podfile.lock */,
+			);
+			name = Nophami;
+			sourceTree = "<group>";
+		};
+		4C0D57F9212373CE00CA2699 /* Nophami */ = {
+			isa = PBXGroup;
+			children = (
+				4C0D57FA212373CE00CA2699 /* UIAlertController+MZStyle.m */,
+				4C0D57FB212373CE00CA2699 /* MZAlertControllerStyle.m */,
+				4C0D57FC212373CE00CA2699 /* HiddenChats.m */,
+				4C0D57FD212373CE00CA2699 /* UIView+INSRecursiveSubviews.m */,
+				4C0D57FE212373CE00CA2699 /* Nophami-Prefix.pch */,
+				4C0D57FF212373CE00CA2699 /* UIAlertController+MZStyle.h */,
+				4C0D5800212373CE00CA2699 /* Nophami.xm */,
+				4C0D5801212373CE00CA2699 /* HiddenChats.h */,
+				4C0D5802212373CE00CA2699 /* Nophami.mm */,
+				4C0D5803212373CE00CA2699 /* AJAlertControllerc.swift */,
+				4C0D5804212373CE00CA2699 /* MZAlertControllerStyle.h */,
+				4C0D5805212373CE00CA2699 /* Nophami-Bridging-Header.h */,
+				4C0D5806212373CE00CA2699 /* AJAlertController.swift */,
+				4C0D5807212373CE00CA2699 /* UIView+INSRecursiveSubviews.h */,
+				4C0D5808212373CE00CA2699 /* Package */,
+			);
+			path = Nophami;
+			sourceTree = "<group>";
+		};
+		4C0D5808212373CE00CA2699 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				4C0D5809212373CE00CA2699 /* DEBIAN */,
+				4C0D580B212373CE00CA2699 /* Library */,
+			);
+			path = Package;
+			sourceTree = "<group>";
+		};
+		4C0D5809212373CE00CA2699 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				4C0D580A212373CE00CA2699 /* control */,
+			);
+			path = DEBIAN;
+			sourceTree = "<group>";
+		};
+		4C0D580B212373CE00CA2699 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				4C0D580C212373CE00CA2699 /* MobileSubstrate */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		4C0D580C212373CE00CA2699 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				4C0D580D212373CE00CA2699 /* DynamicLibraries */,
+			);
+			path = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		4C0D580D212373CE00CA2699 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				4C0D580E212373CE00CA2699 /* Nophami.dylib */,
+				4C0D580F212373CE00CA2699 /* Nophami.plist */,
+			);
+			path = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+		4C0D5811212373CE00CA2699 /* LatestBuild */ = {
+			isa = PBXGroup;
+			children = (
+				4C0D5812212373CE00CA2699 /* Nophami.dylib.dSYM */,
+				4C0D5814212373CE00CA2699 /* Nophami.dylib */,
+				4C0D5815212373CE00CA2699 /* HDAlertView */,
+			);
+			path = LatestBuild;
+			sourceTree = "<group>";
+		};
+		4C0D5815212373CE00CA2699 /* HDAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				4C0D5816212373CE00CA2699 /* HDAlertView.framework */,
+			);
+			path = HDAlertView;
+			sourceTree = "<group>";
+		};
+		4C0D5817212373CE00CA2699 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				4C0D5818212373CE00CA2699 /* com.iTheGentle.Nophami_0.1-1_iphoneos-arm.zip */,
+				4C0D5819212373CE00CA2699 /* com.iTheGentle.Nophami_0.1-1_iphoneos-arm.deb */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		4C0D581C212373CE00CA2699 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C77197721210A220019307B = {
+			isa = PBXGroup;
+			children = (
+				4C77198B21210A220019307B /* Nophami */,
+				4C77198421210A220019307B /* Frameworks */,
+				4C77198321210A220019307B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C77198321210A220019307B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C77198221210A220019307B /* Nophami.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C77198421210A220019307B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C0D57F8212373CE00CA2699 /* Nophami */,
+				4C77198521210A220019307B /* UIKit.framework */,
+				4C77198721210A220019307B /* Foundation.framework */,
+				4C77198921210A220019307B /* CydiaSubstrate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C77198B21210A220019307B /* Nophami */ = {
+			isa = PBXGroup;
+			children = (
+				4C77199121210A220019307B /* Nophami.xm */,
+				4CD1E1812123F28300AECB01 /* WAChatListViewController.h */,
+				4C77199221210A220019307B /* Nophami.mm */,
+				4C77199D2122A6F00019307B /* HiddenChats.h */,
+				4C77199E2122A6F00019307B /* HiddenChats.m */,
+				4CD1E179212396BC00AECB01 /* MiAlert.h */,
+				4CD1E17A212396BC00AECB01 /* MiAlert.m */,
+				4C77198C21210A220019307B /* Package */,
+				4C77198F21210A220019307B /* Supporting Files */,
+			);
+			path = Nophami;
+			sourceTree = "<group>";
+		};
+		4C77198C21210A220019307B /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				4C77198D21210A220019307B /* DEBIAN */,
+				4C77199421210A220019307B /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		4C77198D21210A220019307B /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				4C77198E21210A220019307B /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		4C77198F21210A220019307B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C77199021210A220019307B /* Nophami-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C77199421210A220019307B /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				4C77199521210A220019307B /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		4C77199521210A220019307B /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				4C77199621210A220019307B /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		4C77199621210A220019307B /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				4C77199721210A220019307B /* Nophami.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4C77197F21210A220019307B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C77199F2122A6F00019307B /* HiddenChats.h in Headers */,
+				4CD1E17B212396BC00AECB01 /* MiAlert.h in Headers */,
+				4CD1E1822123F28300AECB01 /* WAChatListViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4C77198121210A220019307B /* Nophami */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C77199A21210A220019307B /* Build configuration list for PBXNativeTarget "Nophami" */;
+			buildPhases = (
+				4C77197C21210A220019307B /* ShellScript */,
+				4C77197D21210A220019307B /* Sources */,
+				4C77197E21210A220019307B /* Frameworks */,
+				4C77197F21210A220019307B /* Headers */,
+				4C77198021210A220019307B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nophami;
+			productName = Nophami;
+			productReference = 4C77198221210A220019307B /* Nophami.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C77197821210A220019307B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				TargetAttributes = {
+					4C77198121210A220019307B = {
+						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = 4C77197B21210A220019307B /* Build configuration list for PBXProject "Nophami" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C77197721210A220019307B;
+			productRefGroup = 4C77198321210A220019307B /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4C0D581C212373CE00CA2699 /* Products */;
+					ProjectRef = 4C0D581B212373CE00CA2699 /* Nophami.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				4C77198121210A220019307B /* Nophami */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C77197C21210A220019307B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp-logos";
+		};
+		4C77198021210A220019307B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C77197D21210A220019307B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CD1E17C212396BC00AECB01 /* MiAlert.m in Sources */,
+				4C77199321210A220019307B /* Nophami.mm in Sources */,
+				4C7719A02122A6F00019307B /* HiddenChats.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4C77199821210A220019307B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"Nophami\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C77199921210A220019307B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"Nophami\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		4C77199B21210A220019307B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nophami/Nophami-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = 192.168.8.103;
+				MonkeyDevDevicePassword = 0;
+				MonkeyDevDevicePort = "";
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4C77199C21210A220019307B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nophami/Nophami-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = 192.168.8.103;
+				MonkeyDevDevicePassword = 0;
+				MonkeyDevDevicePort = "";
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C77197B21210A220019307B /* Build configuration list for PBXProject "Nophami" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C77199821210A220019307B /* Release */,
+				4C77199921210A220019307B /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C77199A21210A220019307B /* Build configuration list for PBXNativeTarget "Nophami" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C77199B21210A220019307B /* Release */,
+				4C77199C21210A220019307B /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C77197821210A220019307B /* Project object */;
+}
